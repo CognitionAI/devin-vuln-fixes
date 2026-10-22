@@ -1,0 +1,11 @@
+{
+  "name": "vuln-fixes",
+  "description": "Find and patch vulnerable PHP, Node.js and self-managed GitLab runtimes across your repos. Read-only inventory first, explicit approval before edits, regression tests before and after, one focused PR per repo.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cognition AI"
+  },
+  "homepage": "https://github.com/CognitionAI/devin-vuln-fixes",
+  "repository": "https://github.com/CognitionAI/devin-vuln-fixes",
+  "license": "MIT"
+}

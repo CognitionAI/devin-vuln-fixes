@@ -1,0 +1,25 @@
+{
+  "name": "vuln-fixes",
+  "version": "1.0.0",
+  "description": "Find and patch vulnerable PHP, Node.js and self-managed GitLab runtimes across your repos. Read-only inventory first, explicit approval before edits, regression tests before and after, one focused PR per repo.",
+  "author": {
+    "name": "Cognition AI",
+    "url": "https://cognition.ai"
+  },
+  "homepage": "https://github.com/CognitionAI/devin-vuln-fixes",
+  "repository": "https://github.com/CognitionAI/devin-vuln-fixes",
+  "license": "MIT",
+  "keywords": ["security", "remediation", "cve", "php", "nodejs", "gitlab"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vulnerability Fixes",
+    "shortDescription": "Fix vulnerable PHP, Node and GitLab runtimes",
+    "longDescription": "Inventory every PHP, Node.js and self-managed GitLab runtime in your repos, stop for approval, patch to a confirmed fixed version, test inside the built image before and after, and open one focused PR per repo.",
+    "developerName": "Cognition AI",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cognition.ai",
+    "defaultPrompt": ["Please fix my PHP vulnerability."],
+    "logo": "./logo.svg"
+  }
+}

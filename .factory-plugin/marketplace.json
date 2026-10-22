@@ -1,0 +1,15 @@
+{
+  "name": "cognition-skills",
+  "description": "Agent skills from Cognition AI",
+  "owner": {
+    "name": "Cognition AI"
+  },
+  "plugins": [
+    {
+      "name": "vuln-fixes",
+      "description": "Find and patch vulnerable PHP, Node.js and self-managed GitLab runtimes across your repos.",
+      "source": "./",
+      "category": "security"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cognition-skills",
+  "description": "Agent skills from Cognition AI",
+  "owner": {
+    "name": "Cognition AI",
+    "url": "https://cognition.ai"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vuln-fixes",
+      "description": "Find and patch vulnerable PHP, Node.js and self-managed GitLab runtimes across your repos. Read-only inventory first, explicit approval before edits, regression tests before and after, one focused PR per repo.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "category": "security",
+      "skills": [
+        "./skills/fix-php-vuln",
+        "./skills/fix-node-vuln",
+        "./skills/fix-gitlab-vuln"
+      ]
+    }
+  ]
+}
