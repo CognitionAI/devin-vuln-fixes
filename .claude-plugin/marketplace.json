@@ -16,12 +16,7 @@
       "version": "1.0.0",
       "source": "./",
       "strict": false,
-      "category": "security",
-      "skills": [
-        "./skills/fix-php-vuln",
-        "./skills/fix-node-vuln",
-        "./skills/fix-gitlab-vuln"
-      ]
+      "category": "security"
     }
   ]
 }
